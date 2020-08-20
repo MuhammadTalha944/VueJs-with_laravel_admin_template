@@ -42,7 +42,11 @@
           <div class="sidebar-heading">
             Interface
           </div>
-
+          <li class="nav-item">
+            <router-link class="nav-link" to="/posts">
+              <i class="fas fa-fw fa-table"></i>
+              <span>Posts</span></router-link>
+          </li>
           <!-- Nav Item - Pages Collapse Menu -->
           <li class="nav-item">
             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">

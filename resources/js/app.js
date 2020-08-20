@@ -27,6 +27,12 @@ import OtherComponent from './components/utilities/OtherComponent.vue';
 import ChartsComponent from './components/ChartsComponent.vue';
 import TabelsComponent from './components/TabelsComponent.vue';
 
+import PostsComponent from './components/Posts/PostsComponent.vue';
+import CreatePostsComponent from './components/Posts/CreatePostsComponent.vue';
+import EditPostComponent from './components/Posts/EditPostComponent.vue';
+
+
+
 
 const routes = [
   {
@@ -74,6 +80,21 @@ const routes = [
     path: '/tabels',
     component: TabelsComponent
   },
+  {
+    name: 'posts',
+    path: '/posts',
+    component: PostsComponent
+  },
+  {
+    name: 'create_post',
+    path: '/create/post',
+    component: CreatePostsComponent
+  },
+  {
+      name: 'edit',
+      path: '/edit/:id',
+      component: EditPostComponent
+  }
 ];
 
 const router = new VueRouter({mode: 'history', routes: routes});

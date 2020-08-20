@@ -15,12 +15,15 @@ Vue.use(VueAxios, axios);
 
 
 import HomeComponent from './components/HomeComponent.vue';
+
 import ButtonsComponent from './components/components/ButtonsComponent.vue';
 import CardsComponent from './components/components/CardsComponent.vue';
+
 import ColorComponent from './components/utilities/ColorComponent.vue';
 import BorderComponent from './components/utilities/BorderComponent.vue';
 import AnimationComponent from './components/utilities/AnimationComponent.vue';
 import OtherComponent from './components/utilities/OtherComponent.vue';
+
 import ChartsComponent from './components/ChartsComponent.vue';
 import TabelsComponent from './components/TabelsComponent.vue';
 
